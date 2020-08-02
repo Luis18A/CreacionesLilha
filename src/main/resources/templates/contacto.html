@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="https://www.thymeleaf.org">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+<meta charset="ISO-8859-1">
+<title>Contacto</title>
+<!-- CSS only -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="icon" th:src="@{/img/lilha.ico}"
+	href="../../static/img/lilha.ico">
+
+</head>
+<body>
+	<div th:insert="layout/header :: header"></div>
+
+	<div class="container body col-sm-10">
+		<div class="container tittle mt-4">
+			<br>
+			<h2>Contacto</h2>
+			<br>
+		</div>
+		<div class="container mb-4">
+			<div class="row">
+				<div class="container mb-4 col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+					<div class="">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4328.054283116497!2d-65.27993535941731!3d-24.191178021519733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b05fa4443da3d%3A0x3717d9fc5395668b!2sPe%C3%B1a%20Colorada%20845%2C%20San%20Salvador%20de%20Jujuy%2C%20Jujuy!5e0!3m2!1ses!2sar!4v1596326151498!5m2!1ses!2sar"
+							width="615" height="450" frameborder="0" style="border: 0;"
+							allowfullscreen="" align="center" aria-hidden="false"
+							tabindex="0"></iframe>
+					</div>
+				</div>
+
+
+				<div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+					<div class="container mt-4">
+						<div class="card">
+							<div class="tittle text-dark mb-4">
+								<h4>Nos encontramos muy cerca tuyo</h4>
+							</div>
+							<div class="cuerpo text-secundary">
+								<p>Dirección: Peña Colorada 842, San Salvador de Jujuy,
+									Jujuy, Argentina.</p>
+								<p>Horario de Atención: Consultar en redes sociales.</p>
+								<p>
+									Correo de Contacto: <a
+										href="mailtolilianaalberto73@gmail.com?Subject=Consulta%20por%20productos%20Lilha">Contactar
+										por correo</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+		</div>
+	</div>
+
+	<div th:insert="layout/footer :: footer"></div>
+
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+</body>
+</html>
